@@ -1,106 +1,217 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webes biztonság és adatvédelem</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-     <h1>Webes biztonság és adatvédelem</h1> 
-<h2>Mi az a HTTPS és miért fontos?</h2> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="./img/ChatGPT Image 2026. jan. 7. 17_37_22.png"
+                    alt="BluePixel"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<p>A HTTPS a HyperText Transfer Protocol Secure rövidítése.</p>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./szolgaltatasok.html">Szolgáltatásaink</a>
+                    </li>
 
-<p>A http önmagában egy szabályrendszer, ami arról szól, hogy hogyan kommunikáljon a weboldal a böngészővel. A https ennek a titkosított, biztonságos változata. Része a titkosítás (encryption), a hitelesítés (authentication) és az adatintegritás (integrity). A titkosítást az ügynevezett SSL/TLS tanúsítvány adja.</p>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./dolgozok.html">Munkatársaink</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./kapcsolat.html">Kapcsolat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./karrier.html">Webfejlesztői pályák és karrier</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="./biztonsag.html" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Webes biztonság és
+                            adatvédelem</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./biztonsag.html#https">Mi az a HTTPS és miért fontos?</a>
+                            <a class="dropdown-item" href="./biztonsag.html#jelszo">Erős jelszavak és hitelesítés</a>
+                            <a class="dropdown-item" href="./biztonsag.html#tamadas">Alapvető webes támadások</a>
+                            <a class="dropdown-item" href="./biztonsag.html#gdpr">Mit jelent a GDPR egy weboldal esetében?
+                            <a class="dropdown-item" href="./biztonsag.html#vedelem">Hogyan védik az adatainkat a weboldalak?</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Anna szakmai részoldala</a>
+                    </li>
 
-<p>A HTTPS tehát egy biztonságos kommunikációs szabályrendszer, amely titkosítja az adatokat, hitelesíti a weboldalt, és megakadályozza az adatok manipulálását.</p>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Webes biztonság és adatvédelem</h1>
+    </header>
+
+    <div>
+        <h2 id="https">Mi az a HTTPS és miért fontos?</h2>
+
+        <p>A HTTPS a HyperText Transfer Protocol Secure rövidítése.</p>
+
+        <p>A http önmagában egy szabályrendszer, ami arról szól, hogy hogyan kommunikáljon a weboldal a böngészővel. A
+            https
+            ennek a titkosított, biztonságos változata. Része a titkosítás (encryption), a hitelesítés (authentication)
+            és
+            az adatintegritás (integrity). A titkosítást az ügynevezett SSL/TLS tanúsítvány adja.</p>
+
+        <p>A HTTPS tehát egy biztonságos kommunikációs szabályrendszer, amely titkosítja az adatokat, hitelesíti a
+            weboldalt, és megakadályozza az adatok manipulálását.</p>
+
+    </div>
+
+    <div>
+        <h2 id="jelszo">Erős jelszavak és hitelesítés </h2>
+
+        <p>A digitális világban mindennapjaink jelentős része online zajlik, ezért kiemelten fontos, hogy megfelelően
+            védjük
+            személyes adatainkat és fiókjainkat. Az egyik legfontosabb lépés az erős jelszavak használata. Az erős
+            jelszó
+            hosszú, kis- és nagybetűket, számokat és speciális karaktereket is tartalmaz, és nem kapcsolódik könnyen
+            kitalálható személyes információkhoz. Minél összetettebb egy jelszó, annál nehezebb feltörni, így
+            hatékonyabban
+            védi adatainkat.</p>
+
+        <p>A biztonságot tovább növeli a többfaktoros hitelesítés, amely nemcsak jelszót kér, hanem egy második
+            azonosítási
+            lépést is, például SMS-kódot, mobilalkalmazás értesítést vagy biometrikus azonosítást. Ez azt jelenti, hogy
+            akkor is védve marad a fiók, ha valaki megszerezné a jelszót. Az erős jelszavak és a többfaktoros
+            hitelesítés
+            együtt olyan védelmi rendszert alkotnak, amely jelentősen csökkenti a kibertámadások esélyét, és
+            biztonságosabbá
+            teszi online jelenlétünket.</p>
+    </div>
+
+    <div>
+        <h2 id="tamadas">Alapvető webes támadások (pl. adathalászat) </h2>
+
+        <p>Az internet használata ma már mindennapos, ezért fontos megérteni, milyen veszélyek leselkedhetnek ránk a
+            digitális térben. Az egyik leggyakoribb webes támadás az adathalászat, amikor a támadók megtévesztő
+            e-mailekkel,
+            hamis weboldalakkal vagy üzenetekkel próbálják rávenni az áldozatot, hogy kiadja személyes adatait, például
+            jelszavait vagy bankkártya-információit. Ezek a támadások gyakran nagyon élethűek, ezért különösen fontos az
+            óvatosság.</p>
+
+        <p>Egy másik elterjedt módszer a rosszindulatú programok terjesztése. Ezek olyan szoftverek, amelyek
+            észrevétlenül
+            települnek a felhasználó eszközére, majd adatokat lopnak, kárt okoznak vagy átveszik az irányítást a
+            rendszer
+            felett. Ide tartoznak a vírusok, a trójai programok és a zsarolóvírusok is.</p>
+
+        <p>Szintén gyakoriak a weboldalak elleni támadások, például a szolgáltatásmegtagadásos (DDoS) támadások, amelyek
+            túlterhelik a szervereket, így a weboldalak elérhetetlenné válnak. Emellett léteznek olyan technikák is,
+            mint az
+            SQL‑injection vagy a cross‑site scripting (XSS), amelyekkel a támadók a weboldalak hibáit kihasználva
+            férhetnek
+            hozzá érzékeny adatokhoz.</p>
+
+        <p>A webes támadások elleni védekezés alapja a tudatosság: fontos felismerni a gyanús jeleket, frissíteni a
+            szoftvereket, és megbízható biztonsági megoldásokat használni. Ha tisztában vagyunk a veszélyekkel, sokkal
+            nagyobb eséllyel kerülhetjük el a kellemetlen vagy akár súlyos következményeket.</p>
+    </div>
+
+    <div>
+        <h2 id="gdpr">Mit jelent a GDPR egy weboldal esetében?</h2>
+
+        <p>A GDPR (General Data Protection Regulation, magyarul: Általános Adatvédelmi Rendelet) egy Európai Uniós
+            szabályozás,
+            amely meghatározza, hogyan kezelhetőek a személyes adatok.</p>
+        <p>A GDPR elsődleges célja annak biztosítása, hogy a személyes adatok az EGT-ben mindenütt ugyanolyan magas
+            szintű
+            védelmet élvezzenek, növelve a jogbiztonságot mind az egyének, mind az adatokat kezelő szervezetek számára,
+            és
+            magas szintű védelmet nyújtva az egyének számára.</p>
+
+        <p>Egy weboldal számára ez azt jelenti, hogy bármilyen személyes adat gyűjtése, tárolása vagy feldolgozása csak
+            átlátható, jogszerű és biztonságos módon történhet.</p>
+
+        
+    </div>
+    <div>
+        <h2 id="vedelem">Hogyan védik az adatainkat a weboldalak?</h2>
+        <p>A keresési eredmények alapján a weboldalaknak több kötelezettségük van:</p>
 
 
-<h2>Erős jelszavak és hitelesítés </h2>
+        A weboldalnak világosan el kell magyaráznia:
 
-<p>A digitális világban mindennapjaink jelentős része online zajlik, ezért kiemelten fontos, hogy megfelelően védjük személyes adatainkat és fiókjainkat. Az egyik legfontosabb lépés az erős jelszavak használata. Az erős jelszó hosszú, kis- és nagybetűket, számokat és speciális karaktereket is tartalmaz, és nem kapcsolódik könnyen kitalálható személyes információkhoz. Minél összetettebb egy jelszó, annál nehezebb feltörni, így hatékonyabban védi adatainkat.</p>
+        milyen adatokat gyűjt,
 
-<p>A biztonságot tovább növeli a többfaktoros hitelesítés, amely nemcsak jelszót kér, hanem egy második azonosítási lépést is, például SMS-kódot, mobilalkalmazás értesítést vagy biometrikus azonosítást. Ez azt jelenti, hogy akkor is védve marad a fiók, ha valaki megszerezné a jelszót. Az erős jelszavak és a többfaktoros hitelesítés együtt olyan védelmi rendszert alkotnak, amely jelentősen csökkenti a kibertámadások esélyét, és biztonságosabbá teszi online jelenlétünket.</p>
+        miért gyűjti,
 
-<h2>Alapvető webes támadások (pl. adathalászat) </h2>
+        mennyi ideig tárolja,
 
-<p>Az internet használata ma már mindennapos, ezért fontos megérteni, milyen veszélyek leselkedhetnek ránk a digitális térben. Az egyik leggyakoribb webes támadás az adathalászat, amikor a támadók megtévesztő e-mailekkel, hamis weboldalakkal vagy üzenetekkel próbálják rávenni az áldozatot, hogy kiadja személyes adatait, például jelszavait vagy bankkártya-információit. Ezek a támadások gyakran nagyon élethűek, ezért különösen fontos az óvatosság.</p>
+        kinek továbbítja,
 
-<p>Egy másik elterjedt módszer a rosszindulatú programok terjesztése. Ezek olyan szoftverek, amelyek észrevétlenül települnek a felhasználó eszközére, majd adatokat lopnak, kárt okoznak vagy átveszik az irányítást a rendszer felett. Ide tartoznak a vírusok, a trójai programok és a zsarolóvírusok is.</p>
+        milyen jogai vannak a felhasználónak.
 
-<p>Szintén gyakoriak a weboldalak elleni támadások, például a szolgáltatásmegtagadásos (DDoS) támadások, amelyek túlterhelik a szervereket, így a weboldalak elérhetetlenné válnak. Emellett léteznek olyan technikák is, mint az SQL‑injection vagy a cross‑site scripting (XSS), amelyekkel a támadók a weboldalak hibáit kihasználva férhetnek hozzá érzékeny adatokhoz.</p>
+        <p>Ez a GDPR egyik alapkövetelménye</p>
 
-<p>A webes támadások elleni védekezés alapja a tudatosság: fontos felismerni a gyanús jeleket, frissíteni a szoftvereket, és megbízható biztonsági megoldásokat használni. Ha tisztában vagyunk a veszélyekkel, sokkal nagyobb eséllyel kerülhetjük el a kellemetlen vagy akár súlyos következményeket.</p>
-<h2>Mit jelent a GDPR egy weboldal esetében?  Hogyan védik az adatainkat a weboldalak?</h2>
-</p>
-<p>DPR (General Data Protection Regulation, magyarul: Általános Adatvédelmi Rendelet) egy Európai Uniós szabályozás, amely meghatározza, hogyan kezelhetőek a személyes adatok.
-<p>A GDPR elsődleges célja annak biztosítása, hogy a személyes adatok az EGT-ben mindenütt ugyanolyan magas szintű védelmet élvezzenek, növelve a jogbiztonságot mind az egyének, mind az adatokat kezelő szervezetek számára, és magas szintű védelmet nyújtva az egyének számára.</p>
+        <p>Ha a weboldal cookie‑kat használ (pl. statisztika, marketing, bejelentkezés), akkor:</p>
 
-<p>Egy weboldal számára ez azt jelenti, hogy bármilyen személyes adat gyűjtése, tárolása vagy feldolgozása csak átlátható, jogszerű és biztonságos módon történhet.</p>
+        erről tájékoztatni kell a látogatót,
 
-<p>A keresési eredmények alapján a weboldalaknak több kötelezettségük van:</p>
+        bizonyos cookie‑khoz előzetes hozzájárulás szükséges.
 
+        A felugró cookie‑sávok ezért jelentek meg minden weboldalon
 
-A weboldalnak világosan el kell magyaráznia:
+        <p>A weboldal üzemeltetőjének gondoskodnia kell arról, hogy az adatok:</p>
 
-milyen adatokat gyűjt,
+        ne kerüljenek illetéktelenekhez,
 
-miért gyűjti,
+        ne vesszenek el,
 
-mennyi ideig tárolja,
+        ne sérüljenek meg.
 
-kinek továbbítja,
-
-milyen jogai vannak a felhasználónak.
-
-<p>Ez a GDPR egyik alapkövetelménye</p>
-
-<p>Ha a weboldal cookie‑kat használ (pl. statisztika, marketing, bejelentkezés), akkor:</p>
-
-erről tájékoztatni kell a látogatót,
-
-bizonyos cookie‑khoz előzetes hozzájárulás szükséges.
-
-A felugró cookie‑sávok ezért jelentek meg minden weboldalon
-
-<p>A weboldal üzemeltetőjének gondoskodnia kell arról, hogy az adatok:</p>
-
-ne kerüljenek illetéktelenekhez,
-
-ne vesszenek el,
-
-ne sérüljenek meg.
-
-<p>Ez technikai és szervezési intézkedéseket is jelent (pl. HTTPS, jelszóvédelem, hozzáférés‑kezelés)</p>
+        <p>Ez technikai és szervezési intézkedéseket is jelent (pl. HTTPS, jelszóvédelem, hozzáférés‑kezelés)</p>
 
 
-<p>Minden adatkezeléshez szükség van egy jogalapra, például:</p>
+        <p>Minden adatkezeléshez szükség van egy jogalapra, például:</p>
 
-hozzájárulás,
+        hozzájárulás,
 
-szerződés teljesítése,
+        szerződés teljesítése,
 
-jogi kötelezettség,
+        jogi kötelezettség,
 
-jogos érdek.
+        jogos érdek.
 
-A látogatók kérhetik:
+        A látogatók kérhetik:
 
-adataik törlését,
+        adataik törlését,
 
-helyesbítését,
+        helyesbítését,
 
-hozzáférést az adataikhoz,
+        hozzáférést az adataikhoz,
 
-az adatkezelés korlátozását.
+        az adatkezelés korlátozását.
 
-A weboldalnak erre lehetőséget kell adnia, és kezelnie kell tudni.
+        A weboldalnak erre lehetőséget kell adnia, és kezelnie kell tudni.
+    </div>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
