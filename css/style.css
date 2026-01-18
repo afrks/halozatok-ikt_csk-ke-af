@@ -4,3 +4,62 @@
     margin: 0;
     display: block;
 }
+
+body {
+    width: 90%;
+    margin: auto;
+    background-image: url(../img/hatterkep.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.content {
+    background-color: rgba(13, 15, 39, 0.9);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(10, 22, 45);
+    border-style: solid;
+    padding-top: 40px;
+}
+
+header {
+    position: relative;
+    background-size: cover;
+    height: 300px;
+}
+
+.fofejlec {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/header.jpg);
+}
+
+.kapcsolatfejlec {
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/kapcsolat.jpg);
+}
+
+header h1 {
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.headertxt {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.kapcsolatlogo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
