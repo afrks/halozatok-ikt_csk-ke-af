@@ -82,7 +82,8 @@ h6 {
 }
 
 .biztonsagfejlec {
-    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/httpsfejlec.jpg)
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/httpsfejlec.jpg);
+    background-position-y: center;
 }
 
 .biztonsagszoveg {
@@ -102,14 +103,14 @@ h6 {
     margin-left: 20px;
 }
 
-.front_back{
+.front_back {
     width: 500px;
     margin: 0 auto;
     height: auto;
     display: block;
-    
+
 }
 
-.karrier_fejlec{
+.karrier_fejlec {
     background-image: url(../img/webfejlesztő.jpg);
 }
