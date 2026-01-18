@@ -63,3 +63,9 @@ header h1 {
     height: 60px;
     object-fit: contain;
 }
+.biztonsagfejlec{
+    background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/httpsfejlec.jpg)
+}
+.biztonsagszoveg{
+    text-align: justify;
+}
