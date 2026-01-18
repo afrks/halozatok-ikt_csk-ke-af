@@ -37,6 +37,7 @@ header {
 
 .kapcsolatfejlec {
     background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent), url(../img/kapcsolat.jpg);
+    background-position-y: center;
 }
 
 .dolgozokfejlec {
