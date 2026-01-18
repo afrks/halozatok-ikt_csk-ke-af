@@ -7,151 +7,265 @@
     <title>Webfejlesztői pályák és karrier</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+<nav class="navbar navbar-expand-xl bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/ChatGPT Image 2026. jan. 7. 17_37_22.png"
+                alt="BluePixel"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Főoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./szolgaltatasok.html">Szolgáltatásaink</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./dolgozok.html">Munkatársaink</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./kapcsolat.html">Kapcsolat</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./karrier.html" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Webfejlesztői pályák és karrier</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="./karrier.html#mitcsinal">Mit csinál egy webfejlesztő?</a>
+                        </li>
+                        <li><a class="dropdown-item" href="./karrier.html#frontback">Frontend, backend és full stack
+                                fejlesztők</a></li>
+                        <li><a class="dropdown-item" href="./karrier.html#tudas">Milyen tudásra van szükség egy junior
+                                fejlesztőnek?</a></li>
+                        <li><a class="dropdown-item" href="./karrier.html#jovo">Webfejlesztés mint jövőbeli szakma</a>
+                        </li>
+                        <li><a class="dropdown-item" href="./karrier.html#tanulas">Hogyan lehet autodidakta módon
+                                tanulni?</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./biztonsag.html">Webes biztonság és adatvédelem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nyelvek.html">Webfejlesztési nyelvek</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
 <body>
-    <h1>Webfejlesztői pályák és karrier</h1>
 
-    <p>A webfejlesztés napjaink egyik legdinamikusabban fejlődő informatikai területe. A webfejlesztők azok a
-        szakemberek, akik a weboldalak és webalkalmazások működéséért, megjelenéséért és technikai hátteréért felelősek.
-    </p>
+    <header class="fofejlec">
+        <div class="headertxt">
+            <h1>Webfejlesztői pályák és karrier</h1>
+            <p>A webfejlesztés napjaink egyik legdinamikusabban fejlődő informatikai területe. A webfejlesztők azok a
+                szakemberek, akik a weboldalak és webalkalmazások működéséért, megjelenéséért és technikai hátteréért
+                felelősek.</p>
+        </div>
+    </header>
 
-    <h2>1. Mit csinál egy webfejlesztő?</h2>
+    <div class="container-fluid">
 
-    <p>Egy webfejlesztő weboldalakat és webalkalmazásokat tervez, fejleszt és tart karban. Munkája során együttműködik
-        designerekkel, tartalomkészítőkkel és ügyfelekkel.</p>
+        <div class="row">
 
-    <h4>Fő feladatai:</h4>
+            <div id="mitcsinal" class="col">
+                <h2>1. Mit csinál egy webfejlesztő?</h2>
 
-    <ul>
-        <li>Weboldalak felépítésének megtervezése</li>
-        <li>Kód írása (HTML, CSS, JavaScript, backend nyelvek)</li>
-        <li>Hibák javítása és tesztelés</li>
-        <li>Reszponzív megjelenés biztosítása</li>
-        <li>Teljesítmény és biztonság optimalizálása</li>
-        <li>Karbantartás és frissítések</li>
-    </ul>
+                <p>Egy webfejlesztő weboldalakat és webalkalmazásokat tervez, fejleszt és tart karban. Munkája során
+                    együttműködik
+                    designerekkel, tartalomkészítőkkel és ügyfelekkel.</p>
+            </div>
 
-    <h2>2. Frontend, backend és full stack fejlesztők </h2>
+            <div class="col">
+                <h4>Fő feladatai:</h4>
 
-    <h3>Frontend fejlesztő</h3>
+                <ul>
+                    <li>Weboldalak felépítésének megtervezése</li>
+                    <li>Kód írása (HTML, CSS, JavaScript, backend nyelvek)</li>
+                    <li>Hibák javítása és tesztelés</li>
+                    <li>Reszponzív megjelenés biztosítása</li>
+                    <li>Teljesítmény és biztonság optimalizálása</li>
+                    <li>Karbantartás és frissítések</li>
+                </ul>
+            </div>
+        </div>
+        <div id="frontback" class="row">
+            <h2>2. Frontend, backend és full stack fejlesztők</h2>
+            <img class="front_back" src="img/front_back.jpg" alt="Frontend, backed">
 
-    <p>A frontend fejlesztő a felhasználó által látható felületért felel.</p>
+            <div class="col">
+                <h3>Frontend fejlesztő</h3>
 
-    <h4>Feladatai:</h4>
+                <p>A frontend fejlesztő a felhasználó által látható felületért felel.</p>
 
-    <ul>
-        <li>Weboldal kinézetének megvalósítása</li>
-        <li>Interaktív elemek létrehozása</li>
-        <li>Reszponzív design biztosítása</li>
-    </ul>
+                <h4>Feladatai:</h4>
 
-    <h4>Használt technológiák:</h4>
+                <ul>
+                    <li>Weboldal kinézetének megvalósítása</li>
+                    <li>Interaktív elemek létrehozása</li>
+                    <li>Reszponzív design biztosítása</li>
+                </ul>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Keretrendszerek: React, Vue, Bootstrap</li>
-    </ul>
+                <h4>Használt technológiák:</h4>
 
-    <h3>Backend fejlesztő</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Keretrendszerek: React, Vue, Bootstrap</li>
+                </ul>
+            </div>
 
-    <p>A backend fejlesztő a weboldal „motorját” készíti el.</p>
+            <div class="col">
+                <h3>Backend fejlesztő</h3>
 
-    <h4>Feladatai:</h4>
+                <p>A backend fejlesztő a weboldal „motorját” készíti el.</p>
 
-    <ul>
-        <li>Adatbázisok kezelése</li>
-        <li>Felhasználói adatok feldolgozása</li>
-        <li>Bejelentkezési és jogosultsági rendszerek</li>
-        <li>Szerveroldali logika</li>
-    </ul>
+                <h4>Feladatai:</h4>
 
-    <h4>Használt technológiák:</h4>
+                <ul>
+                    <li>Adatbázisok kezelése</li>
+                    <li>Felhasználói adatok feldolgozása</li>
+                    <li>Bejelentkezési és jogosultsági rendszerek</li>
+                    <li>Szerveroldali logika</li>
+                </ul>
 
-    <ul>
-        <li>PHP, Python, Java, Node.js</li>
-        <li>MySQL, PostgreSQL</li>
-        <li>API-k</li>
-    </ul>
+                <h4>Használt technológiák:</h4>
 
-    <h3>Backend fejlesztő</h3>
+                <ul>
+                    <li>PHP, Python, Java, Node.js</li>
+                    <li>MySQL, PostgreSQL</li>
+                    <li>API-k</li>
+                </ul>
 
-    <p>A full stack fejlesztő frontend és backend feladatokat is ellát.</p>
+            </div>
 
-    <h4>Előnyei:</h4>
+            <div class="col">
+                <h3>Backend fejlesztő</h3>
 
-    <ul>
-        <li>Átlátja az egész rendszert</li>
-        <li>Kisebb csapatokban különösen hasznos</li>
-        <li>Nagy rugalmasság</li>
-    </ul>
+                <p>A full stack fejlesztő frontend és backend feladatokat is ellát.</p>
 
-    <h2>3. Milyen tudásra van szükség egy junior fejlesztőnek?</h2>
+                <h4>Előnyei:</h4>
 
-    <p>Egy junior webfejlesztőnek nem kell mindent tudnia, de az alapok stabil ismerete elengedhetetlen.</p>
+                <ul>
+                    <li>Átlátja az egész rendszert</li>
+                    <li>Kisebb csapatokban különösen hasznos</li>
+                    <li>Nagy rugalmasság</li>
+                </ul>
+            </div>
+        </div>
+        <div id="tudas" class="row">
+            <h2>3. Milyen tudásra van szükség egy junior fejlesztőnek?</h2>
+            <p>Egy junior webfejlesztőnek nem kell mindent tudnia, de az alapok stabil ismerete elengedhetetlen.</p>
+            <div class="col">
+                <h4>Szükséges alapkompetenciák:</h4>
 
-    <h4>Szükséges alapkompetenciák:</h4>
+                <ul>
+                    <li>HTML, CSS alapismeretek</li>
+                    <li>JavaScript alapok</li>
+                    <li>Verziókezelés (Git, GitHub)</li>
+                    <li>Reszponzív webdesign alapjai</li>
+                    <li>Egyszerű hibakeresés</li>
+                    <li>Alap angol nyelvtudás (dokumentációk miatt)</li>
+                </ul>
+            </div>
 
-    <ul>
-        <li>HTML, CSS alapismeretek</li>
-        <li>JavaScript alapok</li>
-        <li>Verziókezelés (Git, GitHub)</li>
-        <li>Reszponzív webdesign alapjai</li>
-        <li>Egyszerű hibakeresés</li>
-        <li>Alap angol nyelvtudás (dokumentációk miatt)</li>
-    </ul>
+            <div class="col">
+                <h4>Fontos soft skillek:</h4>
 
-    <h4>Fontos soft skillek:</h4>
+                <ul>
+                    <li>Problémamegoldó gondolkodás</li>
+                    <li>Tanulási hajlandóság</li>
+                    <li>Csapatmunka</li>
+                    <li>Pontosság</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
 
-    <ul>
-        <li>Problémamegoldó gondolkodás</li>
-        <li>Tanulási hajlandóság</li>
-        <li>Csapatmunka</li>
-        <li>Pontosság</li>
-    </ul>
+            <div id="jovo" class="col">
+                <h2>4. Webfejlesztés mint jövőbeli szakma</h2>
 
-    <h2>4. Webfejlesztés mint jövőbeli szakma</h2>
+                <p>A webfejlesztés iránti igény folyamatosan növekszik, mivel:</p>
 
-    <p>A webfejlesztés iránti igény folyamatosan növekszik, mivel:</p>
+                <ul>
+                    <li>Egyre több vállalkozás jelenik meg online</li>
+                    <li>Webalkalmazások váltják fel a hagyományos szoftvereket</li>
+                    <li>A mobilbarát és reszponzív oldalak alapkövetelmények</li>
+                </ul>
 
-    <ul>
-        <li>Egyre több vállalkozás jelenik meg online</li>
-        <li>Webalkalmazások váltják fel a hagyományos szoftvereket</li>
-        <li>A mobilbarát és reszponzív oldalak alapkövetelmények</li>
-    </ul>
+                <h4>Előnyei:</h4>
+                <ul>
+                    <li>Jó elhelyezkedési lehetőségek</li>
+                    <li>Versenyképes fizetések</li>
+                    <li>Távmunkára alkalmas</li>
+                    <li>Folyamatos fejlődési lehetőség</li>
+                </ul>
 
-    <h4>Előnyei:</h4>
-    <ul>
-        <li>Jó elhelyezkedési lehetőségek</li>
-        <li>Versenyképes fizetések</li>
-        <li>Távmunkára alkalmas</li>
-        <li>Folyamatos fejlődési lehetőség</li>
-    </ul>
+            </div>
+        </div>
 
-    <h2>5. Hogyan lehet autodidakta módon tanulni?</h2>
+        <div id="tanulas" class="row">
+            <div class="col">
+                <h2>5. Hogyan lehet autodidakta módon tanulni?</h2>
 
-    <p>A webfejlesztés egyik nagy előnye, hogy önálló tanulással is elsajátítható.</p>
+                <p>A webfejlesztés egyik nagy előnye, hogy önálló tanulással is elsajátítható.</p>
 
-    <h4>Hatékony tanulási módszerek:</h4>
+                <h4>Hatékony tanulási módszerek:</h4>
 
-    <ul>
-        <li>Online kurzusok (pl. videók, tutorialok)</li>
-        <li>Gyakorló projektek készítése</li>
-        <li>Dokumentációk olvasása</li>
-        <li>Közösségi fórumok, fejlesztői csoportok</li>
-        <li>Nyílt forráskódú projektek tanulmányozása</li>
-    </ul>
+                <ul>
+                    <li>Online kurzusok (pl. videók, tutorialok)</li>
+                    <li>Gyakorló projektek készítése</li>
+                    <li>Dokumentációk olvasása</li>
+                    <li>Közösségi fórumok, fejlesztői csoportok</li>
+                    <li>Nyílt forráskódú projektek tanulmányozása</li>
+                </ul>
 
-    <p>Fontos: A tanulás során a gyakorlat a legfontosabb – minél több projektet készít valaki, annál gyorsabban
-        fejlődik.</p>
+                <p>Fontos: A tanulás során a gyakorlat a legfontosabb – minél több projektet készít valaki, annál
+                    gyorsabban
+                    fejlődik.</p>
 
-    <h2>Összegzés</h2>
+                <h2>Összegzés</h2>
 
-    <p>A webfejlesztői pálya kreatív, kihívásokkal teli és hosszú távon is biztos karrierlehetőséget nyújt. Legyen szó
-        frontend, backend vagy full stack irányról, a folyamatos tanulás és fejlődés kulcsfontosságú a sikerhez.</p>
+                <p>A webfejlesztői pálya kreatív, kihívásokkal teli és hosszú távon is biztos karrierlehetőséget nyújt.
+                    Legyen szó
+                    frontend, backend vagy full stack irányról, a folyamatos tanulás és fejlődés kulcsfontosságú a
+                    sikerhez.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

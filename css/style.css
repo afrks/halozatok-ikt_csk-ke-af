@@ -87,3 +87,16 @@ h6 {
 .biztonsagszoveg {
     text-align: justify;
 }
+
+.index_img{
+    max-width: 100%;
+    margin: 20px;
+    height: auto;
+    display: block;
+    padding-right: 15px;
+    
+}
+
+.jovobek{
+    margin-left: 20px;
+}
