@@ -100,3 +100,15 @@ h6 {
 .jovobek {
     margin-left: 20px;
 }
+
+.front_back{
+    width: 500px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    
+}
+
+.karrier_fejlec{
+    background-image: url(../img/webfejlesztő.jpg);
+}
